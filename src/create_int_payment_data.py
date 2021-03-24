@@ -9,6 +9,7 @@ def pruning(df, columns):
     return df.loc[:,columns]
 
 pd.set_option("max_rows", None)
+
 pd.set_option("max_columns", None)
 
 
